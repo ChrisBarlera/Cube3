@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManualInput"
+
+    android:background="@color/colorBackground">
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gridLayout2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick" />
+
+        <Button
+            android:id="@+id/bt0"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+        <Button
+            android:id="@+id/bt7"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/gridLayout2">
+        <Button
+            android:id="@+id/bt10"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+        <Button
+            android:id="@+id/bt8"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+        <Button
+            android:id="@+id/bt11"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+        <Button
+            android:id="@+id/bt9"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gridLayout3"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/bt14"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+        <Button
+            android:id="@+id/bt12"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+        <Button
+            android:id="@+id/bt15"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+        <Button
+            android:id="@+id/bt13"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:columnCount="2"
+        android:rowCount="2"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/gridLayout3">
+        <Button
+            android:id="@+id/bt18"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+        <Button
+            android:id="@+id/bt16"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+        <Button
+            android:id="@+id/bt19"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+        <Button
+            android:id="@+id/bt17"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick"/>
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:columnCount="2"
+        android:rowCount="2"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gridLayout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/bt22"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:onClick="cubePieceClick" />
+
+        <Button
+            android:id="@+id/bt20"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick" />
+
+        <Button
+            android:id="@+id/bt23"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick" />
+
+        <Button
+            android:id="@+id/bt21"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="cubePieceClick" />
+    </GridLayout>
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/whiteButton"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="84dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/greenButton"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="84dp"
+        android:background="@color/green"
+        app:layout_constraintStart_toEndOf="@+id/whiteButton"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:textColor="@color/green"
+        />
+
+
+    <Button
+        android:id="@+id/redButton"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="84dp"
+        android:background="@color/red"
+        app:layout_constraintStart_toEndOf="@+id/greenButton"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:textColor="@color/red"
+        />
+
+    <Button
+        android:id="@+id/blueButton"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="84dp"
+        android:background="@color/blue"
+        app:layout_constraintStart_toEndOf="@+id/redButton"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:textColor="@color/blue"
+        />
+
+    <Button
+        android:id="@+id/orangeButton"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="84dp"
+        android:background="@color/orange"
+        app:layout_constraintStart_toEndOf="@+id/blueButton"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:textColor="@color/orange"
+        />
+
+    <Button
+        android:id="@+id/yellowButton"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="84dp"
+        android:background="@color/yellow"
+        app:layout_constraintStart_toEndOf="@+id/orangeButton"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:textColor="@color/yellow"
+        />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="139dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="@string/pickColor"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/okbt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toEndOf="@+id/gridLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.786"
+
+        android:onClick="okButtonClick"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

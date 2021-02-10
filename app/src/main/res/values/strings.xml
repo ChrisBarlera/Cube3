@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Cube³</string>
+    <string name="title_activity_manual_input">ManualInput</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="manual_input">Manual Input</string>
+    <string name="camera_input">Camera Input</string>
+
+    <string name="pickColor">Pick a Color:</string>
+
+    <string name="test">txt</string>
+    <string name="okbt">OK!</string>
+
+    <string name="whiteSolve">White Solve</string>
+    <string name="ollAlg">Oll Alg</string>
+    <string name="ollHelp">Oll Help</string>
+    <string name="generalHelp">A partir de agora, deixe a face branca voltada para baixo</string>
+</resources>
