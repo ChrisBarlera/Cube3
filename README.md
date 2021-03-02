@@ -1,4 +1,4 @@
-# Cube3
+# Cube³
 Aplicativo Android que recebe um input de um cubo mágico embaralhado e mostra ao usuário um passo a passo de como resolvê-lo;
 Feito com Android Studio e Java;
 
