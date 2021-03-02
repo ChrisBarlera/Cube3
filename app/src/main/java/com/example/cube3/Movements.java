@@ -9,6 +9,7 @@ public class Movements {
 
     Movements(){
         this.cnst = new Constants();
+        System.out.println("Teste");
     }
 
 //    public String findMeio(String cube){
